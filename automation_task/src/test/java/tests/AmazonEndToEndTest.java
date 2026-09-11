@@ -34,9 +34,9 @@ public class AmazonEndToEndTest {
 
             // Login Page
             LoginPage login = new LoginPage(driver);
-            login.enterEmail("9842619691");
+            login.enterEmail("");
             login.clickContinue();
-            login.enterPassword("hariprajaa@13");
+            login.enterPassword("");
             login.clickSignIn();
         
         SearchPage search = new SearchPage(driver);
