@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Amazon End To End Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.AmazonEndToEndTest">
+        <methods>
+          <include name="amazonPurchaseFlow"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.AmazonEndToEndTest -->
+    </classes>
+  </test> <!-- Amazon End To End Test(failed) -->
+</suite> <!-- Failed suite [Amazon Suite] -->
